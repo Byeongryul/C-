@@ -9,7 +9,7 @@ public:
 
 	friend istream & operator >>(istream & si, Point& p);
 	friend ostream & operator <<(ostream & so, const Point& p);
-}
+};
 
 istream & operator >> (istream & si, Point& p){
 	si >> p.x >> p.y;
